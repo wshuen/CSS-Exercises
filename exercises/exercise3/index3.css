@@ -1,0 +1,121 @@
+body{
+    font-family: "Raleway";
+    background-color: #ee7354;
+}
+
+header{
+    background-image: url('../image/darkbluebackground.jpg');
+    background-size: cover;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+}
+
+h1{
+    font-weight: bold;
+    color: #ee7354;
+}
+
+header h1{
+    padding: 10px;
+}
+
+header p{
+    color: white;
+    padding: 10px;
+}
+
+#keyword{
+    font-weight: bold;
+}
+
+#italic{
+    font-style: italic;
+}
+
+#underline{
+    text-decoration: underline;
+    color: #ee7354;
+}
+
+section{
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: white;
+    margin: 10px auto;
+    width: 40%;
+}
+
+section h1{
+    text-decoration: underline;
+    padding: 10px 15px 5px 15px;
+}
+
+section h2{
+    color: #ee7354;
+   text-align: center;
+}
+
+.image {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+
+.shuriken{
+    height: 125px;
+    margin: 20px auto;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(2000deg);
+    }
+}
+
+.shuriken:hover {
+    animation: rotate 5s linear infinite;
+}
+
+.table{
+    overflow: auto;
+}
+
+section div table{
+    border-collapse: collapse;
+    margin: 20px 40px;
+}
+
+section td{
+    border: 1px solid #ee7354;
+    padding: 15px;
+}
+
+ul, ol {
+    margin: 20px;
+}
+
+@media only screen and (max-width: 480px) {
+    header{
+        margin: 15px;
+        width: 90%;
+    }
+
+    header p{
+        padding: 0px 10px;
+    }
+
+    section{
+        margin: 15px;
+        width: 90%;
+    }
+
+    .shuriken{
+        margin: 20px 105px;
+    }
+}

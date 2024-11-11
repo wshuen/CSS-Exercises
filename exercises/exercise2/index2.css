@@ -1,0 +1,77 @@
+
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: #3a3a3a;
+    text-align: center;
+}
+
+header a{
+    display: inline-block;
+    color: white;
+    text-decoration: underline;
+    padding: 20px;
+    font-family: "Solway";
+}
+
+section{
+    background-color: lightgray;
+    padding-bottom: 3%;
+}
+
+h2{
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    font-weight: bold;
+    font-family: "Solway";
+}
+
+.book{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.border{
+    border: 3px dashed black;
+    margin: 2% 30% 0% 30%;
+    padding: 1%;
+    line-height: 30px;
+    text-align: center;
+    font-family: "Solway";
+    font-size: 20px;
+}
+
+section p::first-letter{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.footer{
+    background-color: #3a3a3a;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer p{
+    color: white;
+    margin: 0px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+footer button{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: yellow;
+    font-size: 15px;
+}
+
+button:hover{
+    background-color: darkkhaki;
+}
+
